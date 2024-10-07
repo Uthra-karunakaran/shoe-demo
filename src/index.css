@@ -1,22 +1,54 @@
 *{
-    height: 100%;
+    /* height: 100%; */
 }
 html{
-    height: 100%;
+    /* height: 100%; */
 }
 body{
-    height: 100%;
+    /* height: 100%; */
 }
 #root{
-    height: 100%;
+    /* height: 100%; */
 }
 .picker{
     height: 20%
 }
 canvas{
-    height: 50%;
+    height: 500px;
+}
+#c{
+    /* height: 270px;
+    width: 400px; */
+    border: solid black 2px;
+    display: flex;
+    
+}
+.canvas-div{
+    display: flex;
+    justify-content: center;
 }
 .save-btn{
     width: 50%;
     height: 30px;
+}
+#leva__root{
+    height: 50px;
+}
+.leva-c-kWgxhW-czBHep-hideTitleBar-false {
+    height: 300px;
+}
+
+.leva-c-kWgxhW-eXrJvq-flat-false {
+    height: 300px;
+}
+.imageUpload{
+    height: 50px;
+}
+
+.leva-c-kWgxhW-bCBHqk-fill-false {
+    height: 300px;
+}
+
+.leva-c-kWgxhW {
+    height: 300px;
 }
