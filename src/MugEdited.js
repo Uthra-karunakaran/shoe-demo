@@ -37,12 +37,16 @@ export function MugEdited({texture}) {
     const textureAspectRatio = circumference / height;
   
     // Choose canvas width (you can modify it as needed)
-    const canvasWidth = 700;
-  
+    const canvasWidth = 600;
+    const final=2.62
+  // 500/190.67 aspect ratio=2.62
+  // circumference =2 pi r
+  // aspect ratio=width / height
+  //height= width /aspect ratio 
     // Calculate canvas height while maintaining the correct aspect ratio
-    const canvasHeight = canvasWidth / textureAspectRatio;
-  
-    console.log('Adjusted Aspect Ratio:', textureAspectRatio);
+    const canvasHeight = canvasWidth / final;
+    // const canvasHeight = 190.67;
+    console.log('Adjusted Aspect Ratio:', final);
     console.log('Canvas Width:', canvasWidth);
     console.log('Canvas Height:', canvasHeight);
   
