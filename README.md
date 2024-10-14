@@ -3,11 +3,10 @@
 # tech stack
 - react
 - Three js
-
+- react three fiber
+- valtio
 - refer package.json for more info
-# export
-exports the model u decide to save and downloads it locally viewable in blender
-( don't mind the button 😅)
+
 
 ### `npm start`
 
